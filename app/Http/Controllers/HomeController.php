@@ -23,10 +23,6 @@ class HomeController extends Controller
      */
     public function index()
     {
-      // return auth()->user();
-      // return url('/');
-      // return url()->current();
-      // return $app->runningInConsole();
-      return view('home');
+        return view('home');
     }
 }
